@@ -59,7 +59,7 @@ ul#taskList {
 
 .cliffBody {
   position: absolute;
-  background-color: hsl(184, 22%, 55%);
+  background: linear-gradient(hsl(184, 18%, 51%) 0%, transparent 70%);
   right: -30px;
   left: 0;;
   top: 0;

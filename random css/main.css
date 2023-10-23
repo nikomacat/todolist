@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Silkscreen';
+  src: url('./slkscr-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body {
   background: linear-gradient(135deg, #e74c3c, #f1c40f, #2ecc71, #3498db, #9b59b6);
   background-size: 18900%;
@@ -160,7 +168,7 @@ li {
   transform: rotateX(10deg); /* Add a slight 3D tilt */
   transform-style: preserve-3d;
   animation: explode 1s infinite; /* Apply explode animation */
-  font-family: "Silkscreen", sans-serif;
+  font-family: 'Silkscreen';
 }
 
 @keyframes explode {
@@ -185,7 +193,7 @@ li {
 }
 
 #taskInput {
-  font-family: "Silkscreen", sans-serif;
+  font-family: 'Silkscreen';
   background-color: rgba(69, 23, 23, 0.35);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
